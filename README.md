@@ -5,6 +5,8 @@ data and documentation, and graphic design.
 
 Built with HTML, CSS, and JavaScript. The poster archive is available at
 `posters.html`, and the downloadable PDF is the current CV.
+Optimized images are in `images/`; `images/sources.json` records their original
+design collection filenames.
 
 ## Local Preview
 
