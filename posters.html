@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse Mwanaisha Salim's graphic design poster archive by social, community, and faith projects.">
+  <title>Poster Archive | Mwanaisha Salim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261022-mobile-type">
+</head>
+<body data-theme="dark">
+  <header class="site-header">
+    <a class="brand" href="index.html#top" aria-label="Mwanaisha Salim portfolio home">
+      <span class="brand-mark">MS</span>
+      <span>Mwanaisha Salim</span>
+    </a>
+    <nav class="main-nav" id="primary-navigation" aria-label="Primary navigation">
+      <a href="index.html#story">Story</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#work">Design</a>
+      <a href="index.html#profile">Experience</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button class="mobile-nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+      <span></span><span></span>
+    </button>
+    <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme" aria-pressed="false">
+      <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 15.4A8.5 8.5 0 0 1 8.6 3.7 8.6 8.6 0 1 0 20.3 15.4Z"/></svg>
+      <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+    </button>
+    <a class="header-cta" href="Mwanaisha%20Salim%20CV.pdf" target="_blank" rel="noreferrer">Resume</a>
+  </header>
+
+  <main class="posters-page" id="top">
+    <section class="section-panel design-panel" aria-labelledby="archive-title">
+      <div class="archive-topline">
+        <a class="back-link" href="index.html#work">← Back to portfolio</a>
+        <p class="section-kicker">Selected graphic design</p>
+      </div>
+      <div class="section-heading">
+        <h1 id="archive-title">Poster <em>Archive.</em></h1>
+        <p>A collection of social, community, and faith-centered visuals created for different audiences and campaigns.</p>
+      </div>
+      <div class="filter-bar" aria-label="Filter posters by category">
+        <button class="filter-chip active" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-chip" type="button" data-filter="social" aria-pressed="false">Social</button>
+        <button class="filter-chip" type="button" data-filter="community" aria-pressed="false">Community</button>
+        <button class="filter-chip" type="button" data-filter="faith" aria-pressed="false">Faith</button>
+      </div>
+      <div class="gallery-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <dialog class="lightbox" aria-label="Design preview">
+    <button class="lightbox-close" type="button" aria-label="Close preview">Close</button>
+    <img src="" alt="">
+  </dialog>
+
+  <script src="script.js?v=20261010-poster-archive"></script>
+</body>
+</html>
