@@ -1,4 +1,6 @@
 const portfolioItems = [
+  { src: "images/al-hajun-egypt-escape.webp", title: "Egypt Escape - Al Hajun", category: "social" },
+  { src: "images/al-hajun-spiritual-journey.webp", title: "Al Hajun Spiritual Journey", category: "social" },
   { src: "images/image-006.webp", title: "Ayah of the day anwaar", category: "faith" },
   { src: "images/image-007.webp", title: "Ayah of the day anwaar2", category: "faith" },
   { src: "images/image-001.webp", title: "Ayat of the day 1", category: "faith" },
